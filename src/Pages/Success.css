@@ -1,0 +1,32 @@
+.success {
+  background-color: #ce2829;
+  display: flex;
+  flex-direction: column;
+}
+
+.success h1 {
+  margin: 3rem;
+}
+
+.text {
+  text-align: center;
+  margin: 12rem;
+  color: #faf7f2;
+  font-family: "Barlow variant1", Tofu;
+  font-weight: lighter;
+  font-size: 2rem;
+}
+.lezzet-text {
+  color: #faf7f2;
+  font-family: "Satisfy variant0", Tofu;
+  font-weight: lighter;
+}
+
+element.style {
+  transition-property: opacity, transform;
+  font-family: "Satisfy variant0", Tofu;
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+  font-optical-sizing: auto;
+}

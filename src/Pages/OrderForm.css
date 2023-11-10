@@ -1,0 +1,280 @@
+h1 {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  color: #faf7f2;
+  margin: 0;
+}
+.first-section {
+  background-color: #faf7f2;
+  background-image: url("../Assets/adv-aseets/adv-form-banner.png");
+  background-position: 50% 1%;
+  background-repeat: no-repeat;
+  padding: 4rem;
+}
+
+.navbar {
+  padding-left: 20rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+header {
+  background-color: #ce2829;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+a {
+  color: #faf7f2;
+}
+b {
+  color: #faf7f2;
+}
+.product-props b {
+  color: #292929;
+  padding: 0;
+}
+.product-props span {
+  color: #292929;
+}
+.ek-malzemeler span {
+  color: #292929;
+  text-align: start;
+  padding: 1rem;
+  justify-content: space-evenly;
+}
+
+.ek-malzemeler {
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+.malzeme-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 5%;
+  width: 100%;
+  font-weight: bold;
+  color: grey;
+  font-size: 0.9rem;
+}
+.malzeme {
+  padding: 1rem;
+  text-align: start;
+  width: 10rem;
+}
+.order-form {
+  width: 60%;
+  margin: 0 auto;
+}
+.product-container {
+  text-align: center;
+  width: 60%;
+  margin: 0 auto;
+  padding-top: 15rem;
+}
+.product-container h3 {
+  text-align: start;
+}
+.product-container b {
+  font-weight: 800;
+  font-size: 1.3rem;
+}
+.product-container p {
+  flex-wrap: wrap;
+  color: #5f5f5f;
+  text-align: start;
+}
+.product-container span {
+  color: #5f5f5f;
+}
+
+.product-size {
+  padding-bottom: 2rem;
+}
+
+.product-size h3 {
+  padding: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+}
+.boyut-sec {
+  font-weight: bold;
+  color: #292929;
+  padding: 1rem;
+  margin-top: 1rem;
+  width: 188px;
+  height: 24px;
+}
+input {
+  padding: 2rem;
+}
+
+.product-size label {
+  color: #292929;
+  font-size: 1.2rem;
+}
+
+.dough-size {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+input[type="checkbox"] {
+  content: "";
+  padding: 4rem;
+  border-radius: 20px;
+  background: sandybrown;
+}
+select {
+  border-radius: 0.5rem;
+  padding: 0.7rem;
+  padding-right: 4rem;
+  background-color: #faf7f2;
+  border-color: #faf7f2;
+  color: #5f5f5f;
+}
+.order-notes {
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 4rem;
+  display: block;
+}
+.order-notes input {
+  border-color: #faf7f2;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  color: #5f5f5f;
+  font-weight: bold;
+  width: 100%;
+  background-color: #faf7f2;
+}
+.siparis-container {
+  border-radius: 0.5rem;
+  border-color: #5f5f5f;
+  padding: 2rem;
+  width: 40%;
+}
+.siparis-box {
+  padding: 1rem;
+  margin: 2rem;
+  margin-right: 10rem;
+  border: 1px solid #faf7f2;
+  background-color: #faf7f2;
+  text-align: center;
+  align-items: center;
+}
+.inflex {
+  border-radius: 0.5rem;
+  display: block;
+  width: 200px;
+  height: 40px;
+  display: flex;
+  padding: 0.5rem;
+  margin: 2rem;
+  margin-left: 6rem;
+  margin-top: 2rem;
+}
+.dec {
+  padding: 1rem;
+  margin: 0;
+  border-radius: 0.5rem;
+  background-color: #faf7f2;
+}
+.inc {
+  padding: 1rem;
+  margin: 0;
+  border-radius: 0.5rem;
+  background-color: #faf7f2;
+}
+.width-heigth-3 but {
+  text-align: center;
+}
+.order-button {
+  width: 60%;
+  margin: 0 auto;
+}
+.counter-but {
+  padding: 0.7rem;
+  background-color: #faf7f2;
+  border-radius: 0;
+}
+
+.inflex .but {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.1rem;
+  padding: 1rem;
+  border: 0.2px solid #5f5f5f;
+  border-radius: 0.5rem;
+}
+
+.form-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+
+  justify-content: space-between;
+}
+span {
+  color: #ce2829;
+}
+
+.product-props {
+  display: flex;
+  justify-content: space-between;
+}
+
+.inflex-container {
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+}
+.total-cont {
+  display: flex;
+}
+.total-cont span {
+  padding-left: 2rem;
+}
+.toplam {
+  padding-right: 4rem;
+}
+.secim {
+  display: flex;
+}
+.secimler {
+  padding-left: 2rem;
+}
+.ekstra-secim {
+  padding-left: 6rem;
+}
+.error-message {
+  color: #ce2829;
+  font-weight: bold;
+}
+.text-input {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.home-container {
+  display: flex;
+  flex-direction: column;
+}
